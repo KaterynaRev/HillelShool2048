@@ -1,0 +1,31 @@
+.divGame, .divWin{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border: 2px solid #074930d2;
+    position: absolute;
+    text-align: center;
+}
+.pOver, .pWin{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+}
+.btnStart{
+    position: relative;
+    top: 60px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid #074930d2;
+    border-radius: 10px;
+    background: white;
+}
+.btnStart:hover {
+    background-color: #FFFACD;
+    box-shadow: inset 4px 4px 4px #4169E1, inset -4px -4px 4px #4169E1;
+}
